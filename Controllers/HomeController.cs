@@ -23,6 +23,11 @@ namespace SD_Phase2.Controllers
             return View();
         }
 
+        public IActionResult ReferralForm()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
